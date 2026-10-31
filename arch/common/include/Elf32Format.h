@@ -163,7 +163,7 @@ class Elf
     {
         Elf32_Addr r_offset;
         Elf32_Word r_info;
-        Elf32_Sword r_added;
+        Elf32_Sword r_addend;
     } ELF32_Rela;
 
     struct sELF32_Phdr
